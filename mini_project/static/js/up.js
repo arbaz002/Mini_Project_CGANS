@@ -9,6 +9,8 @@ function readURL(input) {
         reader.onload = function (e) {
             $('#imageResult')
                 .attr('src', e.target.result);
+            $('#imageResult12')
+                .attr('src', e.target.result);    
         };
         reader.readAsDataURL(input.files[0]);
     }

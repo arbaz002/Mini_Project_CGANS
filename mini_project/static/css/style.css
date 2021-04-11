@@ -227,6 +227,7 @@ a:focus {
     margin: 0 !important;
 }
 
+
 .navbar-default .navbar-brand {
   color: #505050;
   font-size: 28px;
@@ -236,6 +237,10 @@ a:focus {
   margin: 0;
 }
 
+.navbar-default .navbar-nav li
+{
+  display: inline;
+}
 .navbar-default .navbar-nav li a {
     color: #757575;
     font-size: 19px;

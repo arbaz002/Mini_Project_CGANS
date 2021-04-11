@@ -1,0 +1,125 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+    <meta name="description" content="">
+
+  <!-- stylesheets css -->
+  <link rel="stylesheet" href="{% static 'css\bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css\magnific-popup.css' %}">
+
+  <link rel="stylesheet" href="{% static 'css\animate.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css\font-awesome.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css\nivo-lightbox.css' %}">
+    <link rel="stylesheet" href="{% static 'css\nivo_themes/default/default.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css\hover-min.css' %}">
+    <link rel="stylesheet" href="{% static 'css\flexslider.css' %}">
+
+  <link rel="stylesheet" href="{% static 'css\style.css' %}">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+
+
+    <!---->
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  	<div class="container" style="display: inline;">
+
+    <!--div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand">Steak House</a>
+    </div-->
+    <div class="collapse navbar-collapse" style="text-align: center;">	
+    	<a href="{% url 'home_page' %}" class="navbar-brand" style="line-height: 65px">My MiniProject</a>
+      <ul class="nav navbar-nav navbar-right" style="display: inline">
+        <li><a href="{% url 'home_page' %}" class="smoothScroll">Home</a></li>
+        <li><a href="{% url 'uploadPage_aerial' %}" class="smoothScroll">Aerial_View</a></li>
+        <li><a href="{% url 'uploadPage_sketch' %}" class="smoothScroll">Sketch</a></li>
+        <li><a href="{% url 'uploadPage_semantic' %}" class="smoothScroll">Semantic_Image</a></li>
+      </ul>
+    </div>
+
+  	</div>
+</div>
+
+{% block content %}
+
+{% endblock %}
+
+
+<footer style="padding-top: 50px;padding-bottom: 30px">
+  <div class="container" >
+    <div class="row">
+
+              <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.3s">
+                <h3 style="font-size: 17px">About the Project</h3>
+                <p style="font-size: 14px">This Project was developed to show the world the power of GANs and how it can be used different fields..</p>
+              </div>  
+        
+              <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.6s">
+                <h3 style="font-size: 17px">Contact Detail</h3>
+                <p style="font-size: 14px">Sardar Patel Institute Of Technology, Andheri(W), Mumbai</p>
+                <p style="font-size: 14px">010-020-0780</p>
+                <p style="font-size: 14px">arbazahmed.addewala@spit.ac.in</p>
+                <p style="font-size: 14px">manas.abhyankar@spit.ac.in</p>
+                <p style="font-size: 14px">yash.jagtap@spit.ac.in</p>
+              </div> 
+              
+              <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.9s">
+                <h3 style="font-size: 17px">Opening Hours</h3>
+                <strong style="font-size: 14px">Monday - Firday</strong>
+                <p style="font-size: 14px">11:00 AM - 10:00 PM</p>
+                <strong style="font-size: 14px" style="font-size: 14px">Saturday - Sunday</strong>
+                <p style="font-size: 14px">10:00 AM - 09:00 PM</p>
+              </div> 
+
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+</body>
+
+<script src="{% static 'js\jquery.js' %}"></script>
+<script src="{% static 'js\bootstrap.min.js' %}"></script>
+
+<script src="{% static 'js\jquery.magnific-popup.min.js' %}"></script>
+
+<!--script src="{% static 'js\jquery.sticky.js' %}"--><!--/script-->
+<script src="{% static 'js\jquery.backstretch.min.js' %}"></script>
+
+<script src="{% static 'js\isotope.js' %}"></script>
+<script src="{% static 'js\imagesloaded.min.js' %}"></script>
+<script src="{% static 'js\nivo-lightbox.min.js' %}"></script>
+
+<script src="{% static 'js\jquery.flexslider-min.js' %}"></script>
+
+<script src="{% static 'js\jquery.parallax.js' %}"></script>
+<script src="{% static 'js\smoothscroll.js' %}"></script>
+<script src="{% static 'js\wow.min.js' %}"></script>
+
+<script src="{% static 'js\custom.js' %}"></script>
+
+
+
+
+</html>
