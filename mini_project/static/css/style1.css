@@ -5,9 +5,7 @@ Tooplate 2083 Steak House
 https://www.tooplate.com/view/2083-steak-house
 
 */
-a:hover{
-  background-color: #000000;
-}
+
 body {
 		background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -229,6 +227,7 @@ a:focus {
     margin: 0 !important;
 }
 
+
 .navbar-default .navbar-brand {
   color: #505050;
   font-size: 28px;
@@ -238,6 +237,10 @@ a:focus {
   margin: 0;
 }
 
+.navbar-default .navbar-nav li
+{
+  display: inline;
+}
 .navbar-default .navbar-nav li a {
     color: #757575;
     font-size: 19px;
@@ -820,5 +823,5 @@ footer strong {
   }
 
   footer {text-align: center;}
-  
+
 }

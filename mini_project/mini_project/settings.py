@@ -55,11 +55,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mini_project.urls'
-
+"""os.path.join(BASE_DIR,'apptest\\templates\\'),"""
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'apptest\\templates\\'),os.path.join(BASE_DIR,'arbaz\\templates\\')],
+        'DIRS': [os.path.join(BASE_DIR,'arbaz\\templates\\'),os.path.join(BASE_DIR,'yash\\templates\\')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

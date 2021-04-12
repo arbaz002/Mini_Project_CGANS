@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class YashConfig(AppConfig):
+class ApptestConfig(AppConfig):
     name = 'yash'
